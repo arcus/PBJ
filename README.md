@@ -10,15 +10,16 @@ narrator: US English Female
 
 # Peanut Butter and Jelly, an Overview
 
-A peanut butter and jelly sandwich, the quintessential, love it or hate it staple of American childhood lunches, is a culture icon. But where did it come from, and what is it really?
+A peanut butter and jelly sandwich is the quintessential, love it or hate it staple of American childhood lunches. It is a culture icon. But where did it come from, and what is it really?
 
-
-In 1901, Julia Davis Chandler wrote in [_The Boston Cooking School Magazine of  of Culinary Science and Domestic Economics_](https://babel.hathitrust.org/cgi/pt?id=mdp.39015036669904&view=1up&seq=200&q1=peanut):
+In 1901, Julia Davis Chandler wrote in [The Boston Cooking School Magazine of Culinary Science and Domestic Economics](https://babel.hathitrust.org/cgi/pt?id=mdp.39015036669904&view=1up&seq=200&q1=peanut):
 
 > For variety, some day try making little sandwiches, or bread fingers, of three very thin layers of bread and two of fill- ing, one of peanut; paste, whatever brand you prefer, and currant or crab-apple jelly for the other. _**The combination is delicious, and, so far as I know, original.**_  
 
 
 ## Ingredients
+
+![](media/bread.jpg)![](media/peanutbutter.jpg) ![](media/jelly.jpg)
 gallery of images, with alt text
 
 ### Breads
