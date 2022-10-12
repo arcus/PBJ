@@ -1,23 +1,22 @@
 <!--
 
-author:   
-email:    
+author:   Elizabeth Drellich and Joy Payton
+email:    dlarcuseducation@email.chop.edu
 version:  0.1.0
 language: en
 narrator: US English Female
 
-script: https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
-
 -->
 
-# Peanut Butter and Jelly, and Overview
+# Peanut Butter and Jelly, an Overview
 
 A peanut butter and jelly sandwich, the quintessential, love it or hate it staple of American childhood lunches, is a culture icon. But where did it come from, and what is it really?
 
 
 In 1901, Julia Davis Chandler wrote in [_The Boston Cooking School Magazine of  of Culinary Science and Domestic Economics_](https://babel.hathitrust.org/cgi/pt?id=mdp.39015036669904&view=1up&seq=200&q1=peanut):
 
-> For variety, some day try making little sandwiches, or bread fingers, of three very thin layers of bread and two of fill- ing, one of peanut; paste, whatever brand you prefer, and currant or crab-apple jelly for the other. The combination is delicious, and, so far as I know, original.  
+> For variety, some day try making little sandwiches, or bread fingers, of three very thin layers of bread and two of fill- ing, one of peanut; paste, whatever brand you prefer, and currant or crab-apple jelly for the other. _**The combination is delicious, and, so far as I know, original.**_  
+
 
 ## Ingredients
 gallery of images, with alt text
@@ -32,7 +31,7 @@ My favorite types of bread are itemized this un-ordered list:
 - bagels, particularly
 
   - everything bagels
-  - plain bagels
+  - sesame seed bagels
   - blueberry bagels
 
 ---
@@ -65,33 +64,6 @@ ascii art
 
 ## Assembly
 
-<div style = "background-color:white;">
-
-<script style="display: block" run-once="true" modify="false">
-mermaid.initialize({});
-
-var svg = mermaid.render(
-'pbj_assembly',
-`graph TD
-    A[Gather ingredients] --> D[Peanut Butter]
-    A --> C[Jelly]
-    A --> E[Bread]
-    E --> |plate|H(Put two slices of bread on plate)
-    H --> I(Spread peanut butter on one piece of bread)
-    D --> |knife|I
-    I --> J(Spread jelly on the other piece of bread)
-    C --> |knife|J
-    J --> K(Stick the two pieces of bread together)
-    K --> L{Eat!}
-    `,
-    function(g) {
-        return true;
-    })
-
-    "HTML: " + svg
-</script>
-
-</div>
 
 ### Sandwich Quiz
 What do you need to create traditional a peanut butter and jelly sandwich? Check all that apply.
@@ -128,7 +100,28 @@ Describe how you feel about peanut butter and jelly sandwiches.
 [[___ ___ ___ ]]
 
 ## Consumption
-pseudocode codebox
+What are the instructions for eating a peanut butter and jelly sandwich?
+
+```
+while SANDWICH
+  take a bite
+  chew
+  swallow
+  if THIRSTY
+    drink beverage
+```
+
+These pseudocode instructions could also be written in a particular language, like Python:
+
+``` python Eating a Sandwich
+while SANDWICH:
+  my_bite = bite(SANDWICH)
+  chew(my_bite)
+  swallow(my_bite)
+  if THIRSTY == TRUE:
+    drink_beverage
+```
+
 
 ## Discussion
 links to learn more
