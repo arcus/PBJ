@@ -1,7 +1,7 @@
 <!--
 
-author:   Elizabeth Drellich and Joy Payton
-email:    dlarcuseducation@email.chop.edu
+author:   Elizabeth Drellich
+email:    drelliche@chop.edu
 version:  0.1.0
 language: en
 narrator: US English Female
@@ -19,8 +19,9 @@ In 1901, Julia Davis Chandler wrote in [The Boston Cooking School Magazine of Cu
 
 ## Ingredients
 
-![](media/bread.jpg)![](media/peanutbutter.jpg) ![](media/jelly.jpg)
-gallery of images, with alt text
+![A sliced loaf of bread.](media/bread.jpg "["Sliced fresh bread"](https://foto.wuestenigel.com/sliced-fresh-bread/) by Marco Verch licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)")![A spoon in a jar of peanut butter, seen from above.](media/peanut_butter.jpg "["Peanut Butter"](https://www.flickr.com/photos/niaid/25419964715) by NIAID licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)") ![Jars of jam with visible seeds.](media/jelly.jpg "["Raspberry jam - still hot"](https://www.flickr.com/photos/conall/24046385922/in/photolist-CCU1LJ-8AyPst-2mFmqg3-fsiV4F-2jL9aGz-XKqoJw-2VKzN-2gQqWcy-a71jK9-2nCUjFF-4Tapdw-27Qj8RB-8yYG8J-5XZc81-duKBoj-w8Nwp4-2mWqtuD-2n7WTA2-ayhT1s-2kKqcSY-X1ZXm2-5rWzz4-8wv9CS-9TRsaq-eytHjL-2MDgvM-6TTPiH-7CNZBz-aY1p8B-ciXQcu-niMrx1-cEdCMd-59iDGa-8MK4GE-hUn5n-cD9izo-9nkZkV-wGxAHe-bijv2z-2icnYUX-a4jzDp-3q5uM-ofgwpK-QsQYew-MBvta-21s9gjs-6ydy2q-9mi9VX-2VKvv-ousDw3) by Conall licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)")
+
+
 
 ### Breads
 
@@ -46,25 +47,35 @@ Less fluffy breads that can still be used for sandwiches, enumerated from my mos
 ### Peanut and Other Butters
 Peanut butter is not the only type of "butter" you can use:
 
-| Type of Butter | Yumminess Ranking | Comments |
-|:-|:-:|-|
-| Peanut Butter  | 8 | Traditional, but peanuts are a common allergy. |
-| Sunflower Seed Butter  | 7.5 | Nut-free butter avoids most allergies. |
-| Cashew Butter  | 8.5 | Cashew butter is more expensive than peanut butter, but cashews can also be more delicious than peanuts. |
-| Almond Butter  | 6 | Traditional, but peanuts are a common allergy. |
-| Hazelnut and Chocolate Butter  | 10 | Nutella can be used instead of or in addition to the traditional peanut butter. |
-| Butter  | 3 | Toast with butter and jam is a warm, deconstructed PBJ sandwich with dairy substituted for peanuts. |
+| Type of Butter | Comments |
+|:-|-|
+| Peanut Butter  | Traditional, but peanuts are a common allergy. |
+| Sunflower Seed Butter  | Nut-free butter avoids most allergies. |
+| Cashew Butter  | Cashew butter is more expensive than peanut butter, but cashews can also be more delicious than peanuts. |
+| Almond Butter  | Traditional, but peanuts are a common allergy. |
+| Hazelnut and Chocolate Butter   | Nutella can be used instead of or in addition to the traditional peanut butter. |
+| Butter  | Toast with butter and jam is a warm, deconstructed PBJ sandwich with dairy substituted for peanuts. |
 
 
 ### Jelly and Jelly Alternatives
 
-video of jigggling jelly
+Popularity of various jellies and jelly alternatives:
 
-ascii art
+| Sweet spread | Votes |
+|:- | :-: |
+|Strawberry jelly | 15 |
+|Raspberry jam |17 |
+|Grape jelly| 2|
+|Peach preserves| 9 |
+|Marshmallow fluff | 4 |
+|Honey | 7 |
 
-
+| Strawberry jelly | Raspberry jam | Grape jelly | Peach preserves | Marshmallow fluff | Honey |
+| -------:| -------:| ------:| -------:| ---------:| -----:|
+|      15 |      17 |    2 |     9 |       4 |   7 |
 ## Assembly
 
+video of joy being weird
 
 ### Sandwich Quiz
 What do you need to create traditional a peanut butter and jelly sandwich? Check all that apply.
@@ -108,6 +119,7 @@ while SANDWICH
   take a bite
   chew
   swallow
+
   if THIRSTY
     drink beverage
 ```
@@ -116,9 +128,13 @@ These pseudocode instructions could also be written in a particular language, li
 
 ``` python Eating a Sandwich
 while SANDWICH:
+
   my_bite = bite(SANDWICH)
-  chew(my_bite)
-  swallow(my_bite)
+
+  while my_bite in MOUTH:
+    chew(my_bite)
+    swallow(my_bite)
+
   if THIRSTY == TRUE:
     drink_beverage
 ```
