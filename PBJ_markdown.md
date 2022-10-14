@@ -1,13 +1,3 @@
-<!--
-
-author:   Elizabeth Drellich
-email:    drelliche@chop.edu
-version:  0.1.0
-language: en
-narrator: US English Female
-
--->
-
 # Peanut Butter and Jelly, an Overview
 
 A peanut butter and jelly sandwich is the quintessential, love it or hate it staple of American childhood lunches. It is a culture icon. But where did it come from, and what is it really?
@@ -19,7 +9,17 @@ In 1901, Julia Davis Chandler wrote in [The Boston Cooking School Magazine of Cu
 
 ## Ingredients
 
-![A sliced loaf of bread.](media/bread.jpg "["Sliced fresh bread"](https://foto.wuestenigel.com/sliced-fresh-bread/) by Marco Verch licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)")![A spoon in a jar of peanut butter, seen from above.](media/peanut_butter.jpg "["Peanut Butter"](https://www.flickr.com/photos/niaid/25419964715) by NIAID licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)") ![Jars of jam with visible seeds.](media/jelly.jpg "["Raspberry jam - still hot"](https://www.flickr.com/photos/conall/24046385922/in/photolist-CCU1LJ-8AyPst-2mFmqg3-fsiV4F-2jL9aGz-XKqoJw-2VKzN-2gQqWcy-a71jK9-2nCUjFF-4Tapdw-27Qj8RB-8yYG8J-5XZc81-duKBoj-w8Nwp4-2mWqtuD-2n7WTA2-ayhT1s-2kKqcSY-X1ZXm2-5rWzz4-8wv9CS-9TRsaq-eytHjL-2MDgvM-6TTPiH-7CNZBz-aY1p8B-ciXQcu-niMrx1-cEdCMd-59iDGa-8MK4GE-hUn5n-cD9izo-9nkZkV-wGxAHe-bijv2z-2icnYUX-a4jzDp-3q5uM-ofgwpK-QsQYew-MBvta-21s9gjs-6ydy2q-9mi9VX-2VKvv-ousDw3) by Conall licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)")
+![A sliced loaf of bread.](media/bread.jpg)
+
+["Sliced fresh bread"](https://foto.wuestenigel.com/sliced-fresh-bread/) by Marco Verch licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)
+
+![A spoon in a jar of peanut butter, seen from above.](media/peanut_butter.jpg)
+
+["Peanut Butter"](https://www.flickr.com/photos/niaid/25419964715) by NIAID licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)
+
+![Jars of jam with visible seeds.](media/jelly.jpg)
+
+["Raspberry jam - still hot"](https://www.flickr.com/photos/conall/24046385922/in/photolist-CCU1LJ-8AyPst-2mFmqg3-fsiV4F-2jL9aGz-XKqoJw-2VKzN-2gQqWcy-a71jK9-2nCUjFF-4Tapdw-27Qj8RB-8yYG8J-5XZc81-duKBoj-w8Nwp4-2mWqtuD-2n7WTA2-ayhT1s-2kKqcSY-X1ZXm2-5rWzz4-8wv9CS-9TRsaq-eytHjL-2MDgvM-6TTPiH-7CNZBz-aY1p8B-ciXQcu-niMrx1-cEdCMd-59iDGa-8MK4GE-hUn5n-cD9izo-9nkZkV-wGxAHe-bijv2z-2icnYUX-a4jzDp-3q5uM-ofgwpK-QsQYew-MBvta-21s9gjs-6ydy2q-9mi9VX-2VKvv-ousDw3) by Conall licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)
 
 
 
@@ -79,38 +79,40 @@ Popularity of various jellies and jelly alternatives:
 video of joy being weird
 
 ### Sandwich Quiz
+
 What do you need to create traditional a peanut butter and jelly sandwich? Check all that apply.
 
-[[X]] Bread
-[[X]] Peanut Butter
-[[ ]] Lettuce
-[[X]] Jelly
-[[?]] You can choose more than one correct answer!
+- Bread
+- Peanut Butter
+- Lettuce
+- Jelly
+
+Hint: You can choose more than one correct answer!
+
 ***
-<div class = "answer">
+
+Answer:
 
 A traditional PB&J needs peanut butter, jelly, and bread! Lettuce isn't a traditional component.
 
-</div>
 ***
 
 Which of these is NOT an acceptable type of bread for a peanut butter and jelly sandwich?
 
-[( )] Pita bread
-[(X)] Sliced tomato
-[( )] Crackers
-[( )] Naan
+1. Pita bread
+2. Sliced tomato
+3. Crackers
+4. Naan
 ***
-<div class = "answer">
+Answer:
 
 There is nothing wrong with combining peanut butter, jelly, and sliced tomatoes, they just won't stay together as a sandwich!
 
-</div>
 ***
 
 Describe how you feel about peanut butter and jelly sandwiches.
 
-[[___ ___ ___ ]]
+___ ___ ___
 
 ## Consumption
 What are the instructions for eating a peanut butter and jelly sandwich?
