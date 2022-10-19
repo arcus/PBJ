@@ -76,7 +76,7 @@ Popularity of various jellies and jelly alternatives:
 
 ## Assembly
 
-video of joy being weird
+Video of Joy making a sandwich 
 
 
 ## Consumption
