@@ -78,6 +78,35 @@ Popularity of various jellies and jelly alternatives:
 
 video of joy being weird
 
+## Consumption
+What are the instructions for eating a peanut butter and jelly sandwich?
+
+```
+while SANDWICH
+  take a bite
+  chew
+  swallow
+
+  if THIRSTY
+    drink beverage
+```
+
+These pseudocode instructions could also be written in a particular language, like Python:
+
+``` python Eating a Sandwich
+while SANDWICH:
+
+  my_bite = bite(SANDWICH)
+
+  while my_bite in MOUTH:
+    chew(my_bite)
+    swallow(my_bite)
+
+  if THIRSTY == TRUE:
+    drink_beverage
+```
+
+
 ### Sandwich Quiz
 
 What do you need to create traditional a peanut butter and jelly sandwich? Check all that apply.
@@ -113,35 +142,3 @@ There is nothing wrong with combining peanut butter, jelly, and sliced tomatoes,
 Describe how you feel about peanut butter and jelly sandwiches.
 
 ___ ___ ___
-
-## Consumption
-What are the instructions for eating a peanut butter and jelly sandwich?
-
-```
-while SANDWICH
-  take a bite
-  chew
-  swallow
-
-  if THIRSTY
-    drink beverage
-```
-
-These pseudocode instructions could also be written in a particular language, like Python:
-
-``` python Eating a Sandwich
-while SANDWICH:
-
-  my_bite = bite(SANDWICH)
-
-  while my_bite in MOUTH:
-    chew(my_bite)
-    swallow(my_bite)
-
-  if THIRSTY == TRUE:
-    drink_beverage
-```
-
-
-## Discussion
-links to learn more

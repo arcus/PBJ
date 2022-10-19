@@ -83,43 +83,6 @@ Assembly
 video of joy being weird
 
 ***********
-Sandwich Quiz
-***********
-
-What do you need to create traditional a peanut butter and jelly sandwich? Check all that apply.
-
-- Bread
-- Peanut Butter
-- Lettuce
-- Jelly
-
-Hint: You can choose more than one correct answer!
-
-***
-
-Answer:
-
-A traditional PB&J needs peanut butter, jelly, and bread! Lettuce isn't a traditional component.
-
-***
-
-Which of these is NOT an acceptable type of bread for a peanut butter and jelly sandwich?
-
-1. Pita bread
-2. Sliced tomato
-3. Crackers
-4. Naan
-***
-Answer:
-
-There is nothing wrong with combining peanut butter, jelly, and sliced tomatoes, they just won't stay together as a sandwich!
-
-***
-
-Describe how you feel about peanut butter and jelly sandwiches.
-_____________________________________
-
-***********
 Consumption
 ***********
 
@@ -148,8 +111,39 @@ while SANDWICH:
   if THIRSTY == TRUE:
     drink_beverage
 
+    ***********
+    Sandwich Quiz
+    ***********
 
-***********
-Discussion
-***********
-links to learn more
+    What do you need to create traditional a peanut butter and jelly sandwich? Check all that apply.
+
+    - Bread
+    - Peanut Butter
+    - Lettuce
+    - Jelly
+
+    Hint: You can choose more than one correct answer!
+
+    ***
+
+    Answer:
+
+    A traditional PB&J needs peanut butter, jelly, and bread! Lettuce isn't a traditional component.
+
+    ***
+
+    Which of these is NOT an acceptable type of bread for a peanut butter and jelly sandwich?
+
+    1. Pita bread
+    2. Sliced tomato
+    3. Crackers
+    4. Naan
+    ***
+    Answer:
+
+    There is nothing wrong with combining peanut butter, jelly, and sliced tomatoes, they just won't stay together as a sandwich!
+
+    ***
+
+    Describe how you feel about peanut butter and jelly sandwiches.
+    _____________________________________
