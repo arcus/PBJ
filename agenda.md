@@ -1,6 +1,8 @@
 <!--
 author: Elizabeth Drellich
-
+email: drelliche@chop.edu
+title: Workshop Agenda
+version: 1.0
 -->
 
 
@@ -31,9 +33,13 @@ In your forked copy of the PBJ repository:
 - linking to [websites](https://github.com)
 
 ### Images
-- Inserting an image
-- path to the image
-- using alt-text
+Images are similar to linking to websites, but require a `!` in front of the square brackets.
+- path to the image goes in the parentheses
+- alt-text for the image goes in the square brackets
+
+```
+![Descriptive alt-text will be read by screen readers.](path/to/image/file)
+```
 
 ### Lists
 - itemized lists
@@ -50,10 +56,21 @@ In your forked copy of the PBJ repository:
 - `|` notation
 - alignment using `:-:` notation
 
+This code
+
+```
 |Example | Table | Here |
-| - | -: | :- |
-|1|2|3|
-|look | at my | table |
+|    -   |    -: |   :- |
+|1       |  2    |    3 |
+|a|b|c|
+```
+
+is rendered by markdown as this table:
+
+|Example | Table | Here |
+|    -   |    -: |   :- |
+|1       |  2    |    3 |
+|a|b|c|
 
 ### Code Blocks
 - generic code block: put `\`\`\``  on its own line both before and after the code.
@@ -66,6 +83,10 @@ In your forked copy of the PBJ repository:
 
 ### Including Media
 * captions go in quotes: `![alt text description](file/path.jpg "caption in quotes")`
+
+  * captions will be displayed
+  * alt text and captions convey different information... elaborate more here.
+
 * images can be arrayed in a gallery
 * Other types of media can also be included:
 
@@ -87,16 +108,13 @@ Look at the buttons next to the two tables we already made:
 
 
 ### Metadata and YAML
-* open with
-```
-<!--
--->
-```
+* Start document with a header: `<!--  metadata goes here   -->`
 
 * Include metadata:
 ```
 <!--
 author: Elizabeth Drellich
+email: drelliche@chop.edu
 title: Workshop Agenda
 version: 1.0
 -->
@@ -105,7 +123,7 @@ version: 1.0
 * LiaScript specific tags:
 
   * `langague: en`
-  * `speaker: `
+  * `narrator: UK English Female`
 
 * Scripts and macros can also go in this header
 
