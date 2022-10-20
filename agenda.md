@@ -16,7 +16,9 @@ In your forked copy of the PBJ repository:
 1. Make a copy of the `PBJ_text.txt` file.
 2. Change file extension from `.txt` to `.md`.
 3. Rename the file if you want.
-4. Toggle Markdown Preview to the file you are editing.
+4. Toggle Markdown Preview to the file you are editing using the button in the upper right of the development screen.
+
+
 
 ### Text Formatting
 - headings
