@@ -18,9 +18,9 @@ In your forked copy of the PBJ repository:
 1. Make a copy of the `PBJ_text.txt` file.
 2. Change file extension from `.txt` to `.md`.
 3. Rename the file if you want.
-4. Toggle the preview to the file you are editing using the button in the upper right of the development screen.
+4. Toggle the preview to the file you are editing using the "Open Preview" button in the upper right of the development screen.
 
-![An arrow is pointing to the leftmost of three icons, a square divided by a vertical line with a magnifying glass on the right half.](media/screenshots/toggle_preview.png)
+![The "Open Preview" button is the leftmost icon in the upper right of the development screen.](media/screenshots/toggle_preview.png)
 
 ### Text Formatting
 - headings
@@ -34,12 +34,17 @@ In your forked copy of the PBJ repository:
 
 ### Images
 Images are similar to linking to websites, but require a `!` in front of the square brackets.
+
 - path to the image goes in the parentheses
-- alt-text for the image goes in the square brackets
+- alt text for the image goes in the square brackets
 
 ```
-![Descriptive alt-text will be read by screen readers.](path/to/image/file)
+![Descriptive alt text.](path/to/image/file)
 ```
+
+The alt text describes the information and function of the image.
+A screen reader will announce "IMAGE" followed by your alt text.
+Learn more about about [alt text](https://www.w3.org/WAI/tutorials/images/) from the World Wide Web Consortium.
 
 ### Lists
 - itemized lists
@@ -84,8 +89,13 @@ is rendered by markdown as this table:
 ### Including Media
 * captions go in quotes: `![alt text description](file/path.jpg "caption in quotes")`
 
-  * captions will be displayed
-  * alt text and captions convey different information... elaborate more here.
+  * Captions will be displayed
+  * A caption tells information related to the image, supplemental to the image itself.
+
+    * Attribution
+    * Interpretation
+    * Commentary
+
 
 * images can be arrayed in a gallery
 * Other types of media can also be included:
