@@ -16,9 +16,9 @@ In your forked copy of the PBJ repository:
 1. Make a copy of the `PBJ_text.txt` file.
 2. Change file extension from `.txt` to `.md`.
 3. Rename the file if you want.
-4. Toggle Markdown Preview to the file you are editing using the button in the upper right of the development screen.
+4. Toggle the preview to the file you are editing using the button in the upper right of the development screen.
 
-
+![An arrow is pointing to the leftmost of three icons, a square divided by a vertical line with a magnifying glass on the right half.](media/screenshots/toggle_preview.png)
 
 ### Text Formatting
 - headings
@@ -64,12 +64,13 @@ In your forked copy of the PBJ repository:
 * Keep the file extension as `.md`
 * Toggle LiaScript previewer to the file you are editing.
 
-### Metadata and YAML
-* open with `<!-- yaml: here -->`
+### Including Media
+* captions go in quotes: `![alt text description](file/path.jpg "caption in quotes")`
+* images can be arrayed in a gallery
+* Other types of media can also be included:
 
-### Video and Audio
-* insert video
-* explain `!?[]()` format for video and `?[]()` for audio files
+  - `!?[]()`  for video
+  - `?[]()` for audio files
 
 ### Displaying Data
 
@@ -83,13 +84,18 @@ Look at the buttons next to the two tables we already made:
 * Hints
 * Answers **first look at incorporating html to push capabilities farther**
 
+
+### Metadata and YAML
+* open with `<!-- yaml: here -->`
+
+
 ## Publishing your course
 Make sure you commit your work to GitHub!!!
 
 Then...
 
 * Markdown renders on GitHub directly
-* Go to liascript.github.io
+* Go to https://liascript.github.io
 * Enter the web address of your `.md` file.
 * Obtain rendered course.
 
