@@ -6,19 +6,27 @@ author: Elizabeth Drellich
 
 # Agenda
 
+As part of the LIEAF 2022 Workshop on [Creating Open Source Informatics Instructional Resources](https://github.com/arcus/LIEAF2022_workshop/tree/joy-github), we will transform a plain text file first into a markdown file.
+
+After learning the basics of markdown, we will add more features using LiaScript.
+
 ## Text to Markdown
-- Make a copy of the `PBJ_text.txt` file.
-- Change file extension from `.txt` to `.md`.
-- Rename the file to whatever you want it to be.
-- Toggle Markdown preview to the file you are editing.
+In your forked copy of the PBJ repository:
+
+1. Make a copy of the `PBJ_text.txt` file.
+2. Change file extension from `.txt` to `.md`.
+3. Rename the file if you want.
+4. Toggle Markdown Preview to the file you are editing.
 
 ### Text Formatting
 - headings
-- bold
-- italics
-- block quotes
-- bold-italics
-- linking to websites
+- **bold**
+- _italics_
+
+> block quotes
+
+- _**bold-italics**_
+- linking to [websites](https://github.com)
 
 ### Images
 - Inserting an image
@@ -27,15 +35,27 @@ author: Elizabeth Drellich
 
 ### Lists
 - itemized lists
+* can use `-` or `*` to denote items
+
+  - indenting matters
+  - extra line before indented section
+
 1. enumerated lists
+3. the number `3.` doesn't matter for markdown
+4. but does for LiaScript
 
 ### Tables
 - `|` notation
 - alignment using `:-:` notation
 
+|Example | Table | Here |
+| - | -: | :- |
+|1|2|3|
+|look | at my | table |
+
 ### Code Blocks
-- generic code block
-- specifying a language for code block highlighting
+- generic code block: put `\`\`\``  on its own line both before and after the code.
+- specifying a language for code block highlighting: after the opening `\`\`\`` include the name of the language like `\`\`\`python` or `\`\`\`r`
 - inline code `code here`
 
 ## Markdown to LiaScript
