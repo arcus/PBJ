@@ -71,6 +71,7 @@ In your forked copy of the PBJ repository:
 
   - `!?[]()`  for video
   - `?[]()` for audio files
+  - `??[]()` for files of unknown type or interactive links.
 
 ### Displaying Data
 
@@ -86,17 +87,40 @@ Look at the buttons next to the two tables we already made:
 
 
 ### Metadata and YAML
-* open with `<!-- yaml: here -->`
+* open with
+```
+<!--
+-->
+```
 
+* Include metadata:
+```
+<!--
+author: Elizabeth Drellich
+title: Workshop Agenda
+version: 1.0
+-->
+```
+
+* LiaScript specific tags:
+
+  * `langague: en`
+  * `speaker: `
+
+* Scripts and macros can also go in this header
 
 ## Publishing your course
 Make sure you commit your work to GitHub!!!
 
 Then...
 
-* Markdown renders on GitHub directly
-* Go to https://liascript.github.io
-* Enter the web address of your `.md` file.
+* Markdown renders on GitHub directly https://github.com/arcus/PBJ/blob/main/PBJ_liascript.md
+
+
+* Go to liascript.github.io
+??[](https://liascript.github.io)
+
+* Enter the url of your `.md` file.
 * Obtain rendered course.
 
 You can share this rendered course directly with learners.
