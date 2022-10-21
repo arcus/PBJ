@@ -102,7 +102,7 @@ is rendered by markdown as this table:
 
   - `!?[]()`  for video
   - `?[]()` for audio files
-  - `??[]()` for files of unknown type or interactive links.
+  - `??[]()` for multimedia files
 
 ### Displaying Data
 
@@ -112,9 +112,20 @@ Look at the buttons next to the two tables we already made:
 * Pie chart
 
 ### Quizzes
-* Multiple choice (one or multiple correct answers)
-* Hints
-* Answers **first look at incorporating html to push capabilities farther**
+* Multiple choice (one or multiple correct answers use `[(X)]` and `[[X]]` respectively)
+* Hints `[?]`
+* Answers are our first look at incorporating html to push capabilities farther
+
+```
+<div class = "answer">
+
+Text will be displayed after question is completed.
+
+Include line breaks between <div>s and text.
+
+</div>
+
+```
 
 
 ### Metadata and YAML
