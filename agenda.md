@@ -159,7 +159,11 @@ Then...
 * Go to liascript.github.io
 ??[](https://liascript.github.io)
 
-* Enter the url of your `.md` file.
+* Enter the url of your `.md` file. For this "Agenda" file, that url is https://github.com/arcus/PBJ/blob/main/agenda.md
 * Obtain rendered course.
 
 You can share this rendered course directly with learners.
+
+For this "Agenda" course, the link is https://liascript.github.io/course/?https://raw.githubusercontent.com/arcus/PBJ/main/agenda.md#1
+
+??[](https://liascript.github.io/course/?https://raw.githubusercontent.com/arcus/PBJ/main/agenda.md#1)
