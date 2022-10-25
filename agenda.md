@@ -18,9 +18,11 @@ In your forked copy of the PBJ repository:
 1. Make a copy of the `PBJ_text.txt` file.
 2. Change file extension from `.txt` to `.md`.
 3. Rename the file if you want.
-4. Toggle the preview to the file you are editing using the "Open Preview" button in the upper right of the development screen.
+4. Toggle the preview to the file you are editing using the "Open Preview" button in the upper right of the development screen. You can alternatively press `Command K` then `V` to open the side by side view.
 
 ![The "Open Preview" button is the leftmost icon in the upper right of the development screen.](media/screenshots/toggle_preview.png)
+
+
 
 ### Text Formatting
 - headings
@@ -83,8 +85,16 @@ is rendered by markdown as this table:
 - inline code `code here`
 
 ## Markdown to LiaScript
-* Keep the file extension as `.md`
-* Toggle LiaScript previewer to the file you are editing.
+
+First you will need to install the LiaScript Previewer.
+
+1. Open the Extensions menu on the left side of screen using `Shift` `Command` `X` or the menu button.
+2. Enter "LiaScript" in the search bar.
+3. Select the `Install` button under "LiaScript-Preview-Web"
+4. The command `Alt` `L` will now open the LiaScript previewer.
+
+Navigate back to your `.md` file and type `Alt` `L` to open the previewer. Now you can start see how your course looks in LiaScript.
+
 
 ### Including Media
 * captions go in quotes: `![alt text description](file/path.jpg "caption in quotes")`
