@@ -91,7 +91,7 @@ First you will need to install the LiaScript Previewer.
 1. Open the Extensions menu on the left side of screen using `Shift` `Command` `X` or the menu button.
 2. Enter "LiaScript" in the search bar.
 3. Select the `Install` button under "LiaScript-Preview-Web"
-4. The command `Alt` `L` will now open the LiaScript previewer.
+4. Once the previewer is installed, the command `Alt` `L` will now open the LiaScript previewer.
 
 Navigate back to your `.md` file and type `Alt` `L` to open the previewer. Now you can start see how your course looks in LiaScript.
 
